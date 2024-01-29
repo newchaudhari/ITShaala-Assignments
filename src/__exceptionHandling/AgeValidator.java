@@ -12,6 +12,6 @@ public class AgeValidator {
         }else {
             System.out.println("eligible to vote");
         }
-        System.out.println(23.5%0);
+
     }
 }
