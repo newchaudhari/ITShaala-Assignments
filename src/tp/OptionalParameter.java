@@ -14,8 +14,9 @@ public class OptionalParameter {
     }
 
     public static void main(String[] args) {
-        OptionalParameter optionalParameter = new OptionalParameter("Navin","Pune");
+        OptionalParameter optionalParameter = new OptionalParameter("Navin", "Pune");
         System.out.println(optionalParameter.name);
         System.out.println(optionalParameter.city);
+        System.err.println("This is custom error send by owner itself");
     }
 }
